@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Form Pendaftaran</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <h1>Form Pendaftaran</h1>
+  </div>
+
+  <div class="nav">
+    <a href="home.html">Home<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+  <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+</svg></a>
+    <a href="form.html">Daftar</a>
+    <a href="course.html">Course<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
+  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+</svg></a> 
+    <a href="bantuan.html">Bantuan</a>
+  </div>
+
+  <div class="content">
+    <h2>Isi Data Berikut:</h2>
+    <form name="myForm" action="aksi.html" method="post" onsubmit="return validateForm()">
+      <label>Nama Lengkap:</label><br>
+      <input type="text" name="nama"><br><br>
+
+      <label>Jenis Kelamin:</label><br>
+      <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+      <input type="radio" name="jk" value="Perempuan"> Perempuan<br><br>
+
+      <label>Pilih Level Anda:</label><br>
+      <select name="Level">
+        <option>beginner</option>
+        <option>intermediate </option>
+        <option>expert</option>
+      </select><br><br>
+
+      <label>Minat di bidang IT:</label><br>
+      <input type="checkbox" name="minat" value="Coding"> Frontend
+      <input type="checkbox" name="minat" value="Backend"> Backend
+      <input type="checkbox" name="minat" value="Gaming"> Cybersecurity
+      <input type="checkbox" name="minat" value="Olahraga"> Lainnya<br><br>
+
+      <label>Alasan memilih :</label><br>
+      <textarea name="alasan" rows="4" cols="40"></textarea><br><br>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="footer">
+    <p>&copy; 2025 | Dibuat oleh Diandra </p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Bantuan</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .kontak-img-kanan {
+      position: absolute;
+      top: 190px; 
+      right: 150px; 
+      width: 150px;
+      height: 150px;
+      z-index: 2;
+    }
+    .kontak-container-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+    .course-content {
+      margin-bottom: 40px;
+    }
+    .roadmap-container {
+      display: flex;
+      justify-content: space-between;
+      gap: 32px;
+      padding: 32px 5vw;
+    }
+    .roadmap-section {
+      flex: 1;
+      background: #f7f7fa;
+      border-radius: 16px;
+      box-shadow: 0 2px 8px rgba(80,0,100,0.08);
+      padding: 24px 18px;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .roadmap-section h2 {
+      font-size: 2rem;
+      margin-bottom: 18px;
+      color: #5200c4;
+      letter-spacing: 1px;
+    }
+    .roadmap-section ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+    .roadmap-section li {
+      margin-bottom: 12px;
+      font-size: 1.05rem;
+      line-height: 1.5;
+    }
+    @media (max-width: 900px) {
+      .roadmap-container {
+        flex-direction: column;
+        gap: 24px;
+        padding: 24px 2vw;
+      }
+      .roadmap-section {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+   <div class="header">
+    <h1>UpSKILL.COM</h1>
+  </div>
+  <div class="nav">
+    <a href="home.html">
+      Home
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+        <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+      </svg>
+    </a>
+    <a href="form.html">Daftar</a>
+    <a href="course.html">
+      Course
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+        <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917z"/>
+        <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466z"/>
+      </svg>
+    </a>
+    <a href="bantuan.html">Bantuan</a>
+  </div>
+  <style>
+    .developer-roadmap-link h2 {
+      transition: background 0.3s, color 0.3s;
+    }
+    .developer-roadmap-link:hover h2 {
+      background: linear-gradient(90deg, #ac145d, #5200c4);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      text-shadow: 0 0 8px #ac145d;
+      cursor: pointer;
+    }
+  </style>
+  <div class="kontak-container-wrapper">
+    <img class="kontak-img-kanan" src="https://cdn-icons-png.flaticon.com/128/7201/7201640.png" alt="Bantuan Icon">
+  </div>
+  <div class="course-content">
+    <h2 style="text-align: center; background: linear-gradient(90deg, #5200c4, #ac145d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; cursor: pointer;">🚀 Cara Nentuin Belajar IT</h2>
+    <p  style="text-align: center; background: linear-gradient(90deg, #5200c4, #ac145d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; cursor: pointer;" >1. Tanya Diri Dulu → Mau jadi apa? Programmer? Hacker? Data analyst? Jangan asal gaspol.</p>
+    <p style="text-align: center; background: linear-gradient(90deg, #5200c4, #ac145d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; cursor: pointer;">2. Fondasi Wajib → Basic coding, jaringan dasar, database, sama sistem operasi. Ini pondasi biar nggak bingung. </p>
+    <p style="text-align: center; background: linear-gradient(90deg, #5200c4, #ac145d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; cursor: pointer;">3. Fokus ke Minat →</p>
+    <p  style="text-align: center; background: linear-gradient(90deg, #5200c4, #ac145d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; cursor: pointer;">Suka bikin web/app → Web Dev.</p>
+    <p  style="text-align: center; background: linear-gradient(90deg, #5200c4, #ac145d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; cursor: pointer;">Suka utak-atik jaringan → Jaringan & Keamanan.</p>
+    <p  style="text-align: center; background: linear-gradient(90deg, #5200c4, #ac145d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; cursor: pointer;">Suka ngulik data → Data Science/Big Data.</p>
+    <p  style="text-align: center; background: linear-gradient(90deg, #5200c4, #ac145d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; cursor: pointer;">4. Level Expert → Naik kelas kalau udah mantap. Bisa pilih AI/ML, Cybersecurity, DevOps, atau Blockchain.</p>
+    <p  style="text-align: center; background: linear-gradient(90deg, #5200c4, #ac145d); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; color: transparent; cursor: pointer;">5. Praktik & Portfolio → Jangan cuma teori, praktek beneran! Bikin project, ikut hackathon, atau kontribusi open source.</p>
+  </div>
+  <div class="roadmap-container">
+    <div class="roadmap-section">
+      <h2>Beginner</h2>
+      <ul>
+        <li>Pemrograman Dasar (C++, Python, JavaScript) – belajar sintaks, variabel, kondisi, loop.</li>
+        <li>Jaringan Komputer Dasar – konsep IP address, subnetting dasar, topologi jaringan.</li>
+        <li>Database Dasar (SQL, MySQL, PostgreSQL) – belajar tabel, query SELECT, INSERT, UPDATE.</li>
+        <li>Dasar-Dasar Web Development – HTML, CSS, JavaScript dasar.</li>
+        <li>Sistem Operasi – memahami Windows, Linux, command line dasar.</li>
+      </ul>
+    </div>
+    <div class="roadmap-section">
+      <h2>Intermediate</h2>
+      <ul>
+        <li>Web Development Full Stack – frontend (React/Angular) + backend (Node.js/Express).</li>
+        <li>Jaringan &amp; Keamanan – routing (OSPF, EIGRP), firewall dasar, VLAN, subnetting kompleks.</li>
+        <li>Basis Data Lanjutan – normalisasi, indexing, stored procedure, trigger.</li>
+        <li>Mobile Development – Flutter / React Native.</li>
+        <li>Cloud Computing Dasar – AWS, GCP, Azure (VM, storage, deployment).</li>
+      </ul>
+    </div>
+    <div class="roadmap-section">
+      <h2>Expert</h2>
+      <ul>
+        <li>Artificial Intelligence &amp; Machine Learning – deep learning, NLP, computer vision.</li>
+        <li>Cybersecurity &amp; Ethical Hacking – penetration testing, digital forensics, SOC analyst.</li>
+        <li>Big Data &amp; Data Engineering – Hadoop, Spark, data pipeline, real-time analytics.</li>
+        <li>DevOps &amp; Site Reliability Engineering (SRE) – CI/CD, Kubernetes, Docker, monitoring.</li>
+        <li>Blockchain &amp; Web3 – smart contract, dApps, cryptocurrency, decentralized systems.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer">
+    <p>&copy; 2025 | Dibuat oleh Diandra</p>
+  </div>
+</body>
+</html>
